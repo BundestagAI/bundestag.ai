@@ -1,3 +1,100 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://bundestag.ai/"
+languageCode = "de-de"
+title = "BundestagAI"
+theme = "Agnes"
+
+[params]
+dateFormat = "Jan 2, 2023"
+authorName = "Ported to Hugo by Debashish"
+google_analytics_id = "GA-"
+
+[menu]
+[[menu.main]]
+Name = "Projekt"
+URL = "#"
+weight = 1
+
+[[menu.main]]
+Name = "Quellcode"
+URL = "#"
+weight = 2
+
+[[menu.main]]
+Name = "Impressum"
+URL = "#"
+weight = 3
+
+[params.social]
+LinkedInURL = "https://linkedin.com/company/bundestagai"
+GitHubURL = "https://github.com/organization/bundestagAI"
+
+[params.content]
+LeadTitle = "bundestag.ai"
+LeadDescription = "Dein intelligentes Portal zum deutschen Bundestag"
+ButtonCaption = "Mehr erfahren"
+ButtonURL = "/about"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+FeatureTitle = "Ask The Law"
+FeatureDescription = "Chatte mit einem Modell, das mit einem von dir ausgewählten Gesetz angereichert wurde"
+FeatureImage = "images/feature-1.png"
+FeatureLink = "https://askthelaw.bundestag.ai/"
+
+[[params.feature]]
+FeatureTitle = "Ask The DIP"
+FeatureDescription = "Chatte mit einem Modell, das mit allen Drucksachen und Plenarprotokollen des DIP angereichert wurde"
+FeatureImage = "images/feature-2.png"
+FeatureLink = "https://askthedip.bundestag.ai/"
+
+[[params.feature]]
+FeatureTitle = "mDB"
+FeatureDescription = "Chatte mit einem Modell, das mit Profilen aller Abgeordneten angereichert wurde"
+FeatureImage = "images/feature-3.png"
+FeatureLink = "https://mdb.bundestag.ai/"
+
+[[params.feature]]
+FeatureTitle = "pReSSe"
+FeatureDescription = "Chatte mit einem Modell, das mit aktuellen Presse- und Kurzmeldungen angereichert wurde"
+FeatureImage = "images/feature-4.png"
+FeatureLink = "https://presse.bundestag.ai/"
+
+[[params.pricing]]
+	PricingTitle = "Starter"
+	PricingRate = "49"	
+	ButtonCaption = "Get Early Access"
+	[[params.pricing.Features]]
+		Description = "Zugang zu allen Tools"
+	[[params.pricing.Features]]
+		Description = "1 Account"
+    [[params.pricing.Features]]
+		Description = "1M Token"
+	[[params.pricing.Features]]
+		Description = "Kein Support"
+
+[[params.pricing]]
+	PricingTitle = "Business"
+	PricingRate = "249"
+	ButtonCaption = "Get Earlier Access"
+	[[params.pricing.Features]]
+		Description = "Zugang zu allen Tools"
+	[[params.pricing.Features]]
+		Description = "5 Accounts"
+    [[params.pricing.Features]]
+		Description = "10M Token"
+	[[params.pricing.Features]]
+		Description = "E-Mail Support"	
+	
+[[params.pricing]]
+	PricingTitle = "Enterprise"
+	PricingRate = "4500"
+	ButtonCaption = "Get Earliest Access"
+	[[params.pricing.Features]]
+		Description = "Zugang zu allen Tools"
+	[[params.pricing.Features]]
+		Description = "100 Accounts"
+    [[params.pricing.Features]]
+		Description = "100M Token"
+	[[params.pricing.Features]]
+		Description = "Live Support"
