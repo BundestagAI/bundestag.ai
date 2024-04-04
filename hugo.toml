@@ -37,46 +37,46 @@ ButtonURL = "/about"
 ################### Feature Columns (do not exceed 4) ####################
 
 [[params.feature]]
-FeatureTitle = "Ask The Law"
-FeatureDescription = "Chatte mit einem Modell, das mit einem von dir ausgewählten Gesetz angereichert wurde"
+FeatureTitle = "NORMan"
+FeatureDescription = "Chatte mit einer KI, die mit einem von dir gewählten Gesetz angereichert wurde"
 FeatureImage = "images/feature-1.png"
-FeatureLink = "https://askthelaw.bundestag.ai/"
+FeatureLink = "https://norman.bundestag.ai/"
 
 [[params.feature]]
-FeatureTitle = "Ask The DIP"
-FeatureDescription = "Chatte mit einem Modell, das mit allen Drucksachen und Plenarprotokollen des DIP angereichert wurde"
+FeatureTitle = "AskTheDIP"
+FeatureDescription = "Chatte mit einer KI, die mit allen Drucksachen und Plenarprotokollen des DIP angereichert wurde"
 FeatureImage = "images/feature-2.png"
 FeatureLink = "https://askthedip.bundestag.ai/"
 
 [[params.feature]]
 FeatureTitle = "mDB"
-FeatureDescription = "Chatte mit einem Modell, das mit Profilen aller Abgeordneten angereichert wurde"
+FeatureDescription = "Chatte mit einer KI, die mit Profilen aller Abgeordneten angereichert wurde"
 FeatureImage = "images/feature-3.png"
 FeatureLink = "https://mdb.bundestag.ai/"
 
 [[params.feature]]
 FeatureTitle = "pReSSe"
-FeatureDescription = "Chatte mit einem Modell, das mit aktuellen Presse- und Kurzmeldungen angereichert wurde"
+FeatureDescription = "Chatte mit einer KI, die mit aktuellen Presse- und Kurzmeldungen angereichert wurde"
 FeatureImage = "images/feature-4.png"
 FeatureLink = "https://presse.bundestag.ai/"
 
 [[params.pricing]]
-	PricingTitle = "Starter"
-	PricingRate = "49"	
-	ButtonCaption = "Get Early Access"
+	PricingTitle = "Free"
+	PricingRate = "0"	
+	ButtonCaption = "Direkt Loslegen"
 	[[params.pricing.Features]]
 		Description = "Zugang zu allen Tools"
 	[[params.pricing.Features]]
-		Description = "1 Account"
+		Description = "Keine Accounts / Authorisierung"
     [[params.pricing.Features]]
-		Description = "1M Token"
+		Description = "Bring Your Own API Key"
 	[[params.pricing.Features]]
 		Description = "Kein Support"
 
 [[params.pricing]]
 	PricingTitle = "Business"
-	PricingRate = "249"
-	ButtonCaption = "Get Earlier Access"
+	PricingRate = "299"
+	ButtonCaption = "Get Early Access"
 	[[params.pricing.Features]]
 		Description = "Zugang zu allen Tools"
 	[[params.pricing.Features]]
@@ -88,8 +88,8 @@ FeatureLink = "https://presse.bundestag.ai/"
 	
 [[params.pricing]]
 	PricingTitle = "Enterprise"
-	PricingRate = "4500"
-	ButtonCaption = "Get Earliest Access"
+	PricingRate = "4900"
+	ButtonCaption = "Get Early Access"
 	[[params.pricing.Features]]
 		Description = "Zugang zu allen Tools"
 	[[params.pricing.Features]]
@@ -97,4 +97,4 @@ FeatureLink = "https://presse.bundestag.ai/"
     [[params.pricing.Features]]
 		Description = "100M Token"
 	[[params.pricing.Features]]
-		Description = "Live Support"
+		Description = "24/7 Live Support"
